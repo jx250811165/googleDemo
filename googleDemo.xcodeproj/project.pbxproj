@@ -15,6 +15,17 @@
 		181993071ED9333F007F31D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181993051ED9333F007F31D5 /* LaunchScreen.storyboard */; };
 		181993121ED9333F007F31D5 /* googleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181993111ED9333F007F31D5 /* googleDemoTests.m */; };
 		1819931D1ED9333F007F31D5 /* googleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819931C1ED9333F007F31D5 /* googleDemoUITests.m */; };
+		1858EA9B1EDFBDF400FC850D /* jxhttps.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EA9A1EDFBDF400FC850D /* jxhttps.m */; };
+		1858EAB41EDFBF8000FC850D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EAA01EDFBF8000FC850D /* Reachability.m */; };
+		1858EAB51EDFBF8000FC850D /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EAA41EDFBF8000FC850D /* MBProgressHUD+Add.m */; };
+		1858EAB61EDFBF8000FC850D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EAA61EDFBF8000FC850D /* MBProgressHUD.m */; };
+		1858EAB71EDFBF8000FC850D /* MHAsiNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EAAB1EDFBF8000FC850D /* MHAsiNetworkHandler.m */; };
+		1858EAB81EDFBF8000FC850D /* MHAsiNetworkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EAAD1EDFBF8000FC850D /* MHAsiNetworkItem.m */; };
+		1858EAB91EDFBF8000FC850D /* MHNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EAB01EDFBF8000FC850D /* MHNetworkManager.m */; };
+		1858EABA1EDFBF8000FC850D /* MHUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858EAB31EDFBF8000FC850D /* MHUploadParam.m */; };
+		8CDE474E929325EEC3F45A70 /* libPods-googleDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEC74144E9E5BA12BD38097 /* libPods-googleDemoTests.a */; };
+		9274FD3BA454D4A4743B0259 /* libPods-googleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C12B75BB91F40689F9743A /* libPods-googleDemo.a */; };
+		B8EF4692CD65CAE5A6550129 /* libPods-googleDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD525CE6CFD96398B793411 /* libPods-googleDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B732B0A7BBE10E687AACD53 /* Pods-googleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-googleDemoTests/Pods-googleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		181992F41ED9333F007F31D5 /* googleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181992F81ED9333F007F31D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		181992FA1ED9333F007F31D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,34 @@
 		181993181ED9333F007F31D5 /* googleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1819931C1ED9333F007F31D5 /* googleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleDemoUITests.m; sourceTree = "<group>"; };
 		1819931E1ED9333F007F31D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1858EA991EDFBDF400FC850D /* jxhttps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxhttps.h; sourceTree = "<group>"; };
+		1858EA9A1EDFBDF400FC850D /* jxhttps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jxhttps.m; sourceTree = "<group>"; };
+		1858EA9F1EDFBF8000FC850D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1858EAA01EDFBF8000FC850D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1858EAA31EDFBF8000FC850D /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		1858EAA41EDFBF8000FC850D /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		1858EAA51EDFBF8000FC850D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1858EAA61EDFBF8000FC850D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1858EAA81EDFBF8000FC850D /* MHAsiNetworkDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAsiNetworkDefine.h; sourceTree = "<group>"; };
+		1858EAA91EDFBF8000FC850D /* MHAsiNetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAsiNetworkDelegate.h; sourceTree = "<group>"; };
+		1858EAAA1EDFBF8000FC850D /* MHAsiNetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAsiNetworkHandler.h; sourceTree = "<group>"; };
+		1858EAAB1EDFBF8000FC850D /* MHAsiNetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHAsiNetworkHandler.m; sourceTree = "<group>"; };
+		1858EAAC1EDFBF8000FC850D /* MHAsiNetworkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAsiNetworkItem.h; sourceTree = "<group>"; };
+		1858EAAD1EDFBF8000FC850D /* MHAsiNetworkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHAsiNetworkItem.m; sourceTree = "<group>"; };
+		1858EAAE1EDFBF8000FC850D /* MHAsiNetworkUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAsiNetworkUrl.h; sourceTree = "<group>"; };
+		1858EAAF1EDFBF8000FC850D /* MHNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHNetworkManager.h; sourceTree = "<group>"; };
+		1858EAB01EDFBF8000FC850D /* MHNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHNetworkManager.m; sourceTree = "<group>"; };
+		1858EAB11EDFBF8000FC850D /* MHNetwrok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHNetwrok.h; sourceTree = "<group>"; };
+		1858EAB21EDFBF8000FC850D /* MHUploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHUploadParam.h; sourceTree = "<group>"; };
+		1858EAB31EDFBF8000FC850D /* MHUploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHUploadParam.m; sourceTree = "<group>"; };
+		3CCB213D082380626FC29B0C /* Pods-googleDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-googleDemoUITests/Pods-googleDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DEC74144E9E5BA12BD38097 /* libPods-googleDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-googleDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A8B7645B372C8B2EAFA99E /* Pods-googleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-googleDemoTests/Pods-googleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8699CB1B3A3D468977BA233F /* Pods-googleDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-googleDemoUITests/Pods-googleDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E933B08DEE06A7E9BAF2AD3 /* Pods-googleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-googleDemo/Pods-googleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		994794F735D093EBAFD0C4ED /* Pods-googleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-googleDemo/Pods-googleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CDD525CE6CFD96398B793411 /* libPods-googleDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-googleDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C12B75BB91F40689F9743A /* libPods-googleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-googleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9274FD3BA454D4A4743B0259 /* libPods-googleDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDE474E929325EEC3F45A70 /* libPods-googleDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EF4692CD65CAE5A6550129 /* libPods-googleDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +128,8 @@
 				181993101ED9333F007F31D5 /* googleDemoTests */,
 				1819931B1ED9333F007F31D5 /* googleDemoUITests */,
 				181992F51ED9333F007F31D5 /* Products */,
+				5FCA9D07D56F6AC949CB4E6F /* Pods */,
+				885EDDB54377C4B4E7195357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +146,13 @@
 		181992F61ED9333F007F31D5 /* googleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1858EA9C1EDFBF8000FC850D /* Netwroking */,
 				181992FA1ED9333F007F31D5 /* AppDelegate.h */,
 				181992FB1ED9333F007F31D5 /* AppDelegate.m */,
 				181992FD1ED9333F007F31D5 /* ViewController.h */,
 				181992FE1ED9333F007F31D5 /* ViewController.m */,
+				1858EA991EDFBDF400FC850D /* jxhttps.h */,
+				1858EA9A1EDFBDF400FC850D /* jxhttps.m */,
 				181993001ED9333F007F31D5 /* Main.storyboard */,
 				181993031ED9333F007F31D5 /* Assets.xcassets */,
 				181993051ED9333F007F31D5 /* LaunchScreen.storyboard */,
@@ -140,6 +188,94 @@
 			path = googleDemoUITests;
 			sourceTree = "<group>";
 		};
+		1858EA9C1EDFBF8000FC850D /* Netwroking */ = {
+			isa = PBXGroup;
+			children = (
+				1858EA9D1EDFBF8000FC850D /* AFN */,
+				1858EAA21EDFBF8000FC850D /* MBProgressHUD */,
+				1858EAA71EDFBF8000FC850D /* NetwrokHandle */,
+			);
+			path = Netwroking;
+			sourceTree = "<group>";
+		};
+		1858EA9D1EDFBF8000FC850D /* AFN */ = {
+			isa = PBXGroup;
+			children = (
+				1858EA9E1EDFBF8000FC850D /* AFNetworking */,
+				1858EA9F1EDFBF8000FC850D /* Reachability.h */,
+				1858EAA01EDFBF8000FC850D /* Reachability.m */,
+				1858EAA11EDFBF8000FC850D /* UIKit+AFNetworking */,
+			);
+			path = AFN;
+			sourceTree = "<group>";
+		};
+		1858EA9E1EDFBF8000FC850D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		1858EAA11EDFBF8000FC850D /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		1858EAA21EDFBF8000FC850D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1858EAA31EDFBF8000FC850D /* MBProgressHUD+Add.h */,
+				1858EAA41EDFBF8000FC850D /* MBProgressHUD+Add.m */,
+				1858EAA51EDFBF8000FC850D /* MBProgressHUD.h */,
+				1858EAA61EDFBF8000FC850D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1858EAA71EDFBF8000FC850D /* NetwrokHandle */ = {
+			isa = PBXGroup;
+			children = (
+				1858EAA81EDFBF8000FC850D /* MHAsiNetworkDefine.h */,
+				1858EAA91EDFBF8000FC850D /* MHAsiNetworkDelegate.h */,
+				1858EAAA1EDFBF8000FC850D /* MHAsiNetworkHandler.h */,
+				1858EAAB1EDFBF8000FC850D /* MHAsiNetworkHandler.m */,
+				1858EAAC1EDFBF8000FC850D /* MHAsiNetworkItem.h */,
+				1858EAAD1EDFBF8000FC850D /* MHAsiNetworkItem.m */,
+				1858EAAE1EDFBF8000FC850D /* MHAsiNetworkUrl.h */,
+				1858EAAF1EDFBF8000FC850D /* MHNetworkManager.h */,
+				1858EAB01EDFBF8000FC850D /* MHNetworkManager.m */,
+				1858EAB11EDFBF8000FC850D /* MHNetwrok.h */,
+				1858EAB21EDFBF8000FC850D /* MHUploadParam.h */,
+				1858EAB31EDFBF8000FC850D /* MHUploadParam.m */,
+			);
+			path = NetwrokHandle;
+			sourceTree = "<group>";
+		};
+		5FCA9D07D56F6AC949CB4E6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E933B08DEE06A7E9BAF2AD3 /* Pods-googleDemo.debug.xcconfig */,
+				994794F735D093EBAFD0C4ED /* Pods-googleDemo.release.xcconfig */,
+				70A8B7645B372C8B2EAFA99E /* Pods-googleDemoTests.debug.xcconfig */,
+				0B732B0A7BBE10E687AACD53 /* Pods-googleDemoTests.release.xcconfig */,
+				8699CB1B3A3D468977BA233F /* Pods-googleDemoUITests.debug.xcconfig */,
+				3CCB213D082380626FC29B0C /* Pods-googleDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		885EDDB54377C4B4E7195357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C12B75BB91F40689F9743A /* libPods-googleDemo.a */,
+				3DEC74144E9E5BA12BD38097 /* libPods-googleDemoTests.a */,
+				CDD525CE6CFD96398B793411 /* libPods-googleDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181993211ED9333F007F31D5 /* Build configuration list for PBXNativeTarget "googleDemo" */;
 			buildPhases = (
+				AB1D299C058B10FB000941D2 /* [CP] Check Pods Manifest.lock */,
 				181992F01ED9333F007F31D5 /* Sources */,
 				181992F11ED9333F007F31D5 /* Frameworks */,
 				181992F21ED9333F007F31D5 /* Resources */,
+				FF087840BC3631D2BBCB38FF /* [CP] Embed Pods Frameworks */,
+				4861900F4E0F7F950265C821 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181993241ED9333F007F31D5 /* Build configuration list for PBXNativeTarget "googleDemoTests" */;
 			buildPhases = (
+				0601E161059CF075B3350DCC /* [CP] Check Pods Manifest.lock */,
 				181993091ED9333F007F31D5 /* Sources */,
 				1819930A1ED9333F007F31D5 /* Frameworks */,
 				1819930B1ED9333F007F31D5 /* Resources */,
+				D9BC87F32EC07474FB7F4F5E /* [CP] Embed Pods Frameworks */,
+				1F493B84E80D31192774060D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181993271ED9333F007F31D5 /* Build configuration list for PBXNativeTarget "googleDemoUITests" */;
 			buildPhases = (
+				DA189CF6AC62755B3979F6EF /* [CP] Check Pods Manifest.lock */,
 				181993141ED9333F007F31D5 /* Sources */,
 				181993151ED9333F007F31D5 /* Frameworks */,
 				181993161ED9333F007F31D5 /* Resources */,
+				D06D1F8F1B1AFA2A0A2D1509 /* [CP] Embed Pods Frameworks */,
+				0D9CD04C643751257A1E8EA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +416,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0601E161059CF075B3350DCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D9CD04C643751257A1E8EA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleDemoUITests/Pods-googleDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F493B84E80D31192774060D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleDemoTests/Pods-googleDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4861900F4E0F7F950265C821 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleDemo/Pods-googleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB1D299C058B10FB000941D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D06D1F8F1B1AFA2A0A2D1509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleDemoUITests/Pods-googleDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BC87F32EC07474FB7F4F5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleDemoTests/Pods-googleDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA189CF6AC62755B3979F6EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF087840BC3631D2BBCB38FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleDemo/Pods-googleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181992F01ED9333F007F31D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1858EAB81EDFBF8000FC850D /* MHAsiNetworkItem.m in Sources */,
+				1858EABA1EDFBF8000FC850D /* MHUploadParam.m in Sources */,
+				1858EAB91EDFBF8000FC850D /* MHNetworkManager.m in Sources */,
 				181992FF1ED9333F007F31D5 /* ViewController.m in Sources */,
+				1858EAB51EDFBF8000FC850D /* MBProgressHUD+Add.m in Sources */,
+				1858EAB71EDFBF8000FC850D /* MHAsiNetworkHandler.m in Sources */,
+				1858EA9B1EDFBDF400FC850D /* jxhttps.m in Sources */,
 				181992FC1ED9333F007F31D5 /* AppDelegate.m in Sources */,
 				181992F91ED9333F007F31D5 /* main.m in Sources */,
+				1858EAB41EDFBF8000FC850D /* Reachability.m in Sources */,
+				1858EAB61EDFBF8000FC850D /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,30 +718,35 @@
 		};
 		181993221ED9333F007F31D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E933B08DEE06A7E9BAF2AD3 /* Pods-googleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MXDYQ6NL8N;
 				INFOPLIST_FILE = googleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.googleDemo.jx.googleDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "RonXiong.RXGooglemap-Master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		181993231ED9333F007F31D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994794F735D093EBAFD0C4ED /* Pods-googleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MXDYQ6NL8N;
 				INFOPLIST_FILE = googleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.googleDemo.jx.googleDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "RonXiong.RXGooglemap-Master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		181993251ED9333F007F31D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A8B7645B372C8B2EAFA99E /* Pods-googleDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = MXDYQ6NL8N;
@@ -464,6 +760,7 @@
 		};
 		181993261ED9333F007F31D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B732B0A7BBE10E687AACD53 /* Pods-googleDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = MXDYQ6NL8N;
@@ -477,6 +774,7 @@
 		};
 		181993281ED9333F007F31D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8699CB1B3A3D468977BA233F /* Pods-googleDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MXDYQ6NL8N;
 				INFOPLIST_FILE = googleDemoUITests/Info.plist;
@@ -489,6 +787,7 @@
 		};
 		181993291ED9333F007F31D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCB213D082380626FC29B0C /* Pods-googleDemoUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MXDYQ6NL8N;
 				INFOPLIST_FILE = googleDemoUITests/Info.plist;
@@ -518,6 +817,7 @@
 				181993231ED9333F007F31D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181993241ED9333F007F31D5 /* Build configuration list for PBXNativeTarget "googleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +826,7 @@
 				181993261ED9333F007F31D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181993271ED9333F007F31D5 /* Build configuration list for PBXNativeTarget "googleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +835,7 @@
 				181993291ED9333F007F31D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
